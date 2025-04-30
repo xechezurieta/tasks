@@ -1,0 +1,10 @@
+package com.xechezurieta.tasks.services;
+
+import com.xechezurieta.tasks.domain.entities.Task;
+
+import java.util.List;
+import java.util.UUID;
+
+public interface TaskService {
+    List<Task> listTasks(UUID taskListId);
+}
